@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/*utality classes*/
+.container{
+    padding: 0 2em;
+
+}
+p{
+    margin: .75em 0;
+}
+.text-center{
+    text-align: center;
+}
+.text-primary{
+    color: blue;
+}
+.bg-light{
+    color:#333 ;
+    background:#f4f4f4; 
+}
+.bg-dark{
+    color:#ffff;
+    background: #333;
+
+}
+.l-heading{
+    font-size: 4em;
+    margin-bottom:.75em ;
+    line-height: 1.1em;
+}
+.m-heading{
+    font-size:2em ;
+    margin-bottom: .75em;
+    line-height:1.1em ;
+}
+.s-heading{
+    font-size:1.3em ;
+    margin-bottom: 2em;
+}
+.btn{
+    display:inline-block;
+    border: none;
+    color: #ffff;
+    background-color:#93cb52 ;
+    border-radius: 5px;
+    padding: .5em 2em;
+
+}
+.btn:hover{
+    background-color: #7ab436;
+}
+.btn-dark{
+    background-color: #333;
+}
+/*--------------------------------------------navbar--------------------------------------------------*/
+#navbar{
+    display: flex;
+    justify-content:space-between ;
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: #ffff;
+    padding: 1em;
+}
+#navbar span{
+    padding: 0 3px;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+#navbar ul li a{
+    color: #ffff;
+    padding: .75em;
+    margin: 0 .25em;
+}
+#navbar ul li a:hover{
+    background-color:rgb(70, 70, 133) ;
+    border-radius: 5px;
+}
+/*---------------------------------------------------Header------------------------------------------------*/
+#show-case{
+    background-image: url(../images/p2.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #ffff;
+}
+#show-case .show-case-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+/*--------------------------------------Wate-------------------------------*/
+#what{
+    padding: 1.5em 0;
+}
+#what .items{
+    display: flex;
+   /* justify-content: center;*/
+    padding: 1rem;
+}
+#what .items .item{
+    text-align: center;
+    flex: 1;
+    padding: 1em;
+}
+#what .items .item i{
+    background-color: #333;
+    margin-bottom: .5em;
+    border-radius: 50%;
+    padding: 1em;
+
+}
+/*-------------------------------------------------who--------------------------------------------*/
+#who{
+    display: flex;
+    height: 400px;
+}
+#who div{
+    flex: 1;
+}
+#who .who-img{
+    background-image: url(../images/photo1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#who .who-text{
+    padding: 2em;
+}
+#who .who-text .list{
+    list-style: none;
+    margin: .5em 0;
+    
+    
+}
+#who .who-text .list li{
+    border-bottom: 1px dotted #ffff;
+    padding: .5em 0;
+}
+/*---------------------------------------clients---------------------------*/
+#clients{
+    padding: 1.5em 0;
+    
+}
+#clients .items{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em 0;
+   
+}
+#clients .items .item{
+    display: block;
+    margin: auto;
+
+    
+}
+#clients span{
+    margin: 0 .25em;
+}
+/*---------------------------------------contact------------------------*/
+#contact{
+    display: flex;
+}
+#contact .contact-form,#contact .map{
+    flex: 1;
+}
+#contact .contact-form{
+    color: #ffff;
+    padding: 2em;
+    background-color: rgb(76, 133, 207);
+}
+#contact .contact-form .form-group{
+    margin: .75em;
+}
+#contact .contact-form .form-group label{
+    display: block;
+}
+#contact .contact-form .form-group input,#contact .contact-form .form-group textarea{
+    display: block;
+    padding: .5em;
+    width: 100%;
+}
+#contact button{
+
+margin-left:250px ;
+    
+}
+/*-------------------footer---------------------*/
+footer{
+    padding: 1.5em 0;
+}
+
+
+
+
